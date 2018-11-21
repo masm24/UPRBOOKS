@@ -24,7 +24,7 @@
   <div class="collapse navbar-collapse" id="navbarNav">
     <ul class="navbar-nav">
       <?php
-      $menu = ['Home', 'Books', 'Classes', 'About'];
+      $menu = ['Home', 'Books', 'Register', 'About'];
 foreach ($menu as $label){
   echo ' <li class="nav-item">
         <a class="nav-link" href="#">'. $label.'</a>
@@ -39,7 +39,7 @@ foreach ($menu as $label){
   <div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
     <a class="dropdown-item" href="http://sici4997.uprp.edu/~miguel.santiago27/UprBooks/Departments/ADMI.php">Administration</a>
     <a class="dropdown-item" href="http://sici4997.uprp.edu/~miguel.santiago27/UprBooks/Departments/SICI.php">Computer Science</a>
-    <a class="dropdown-item" href="http://sici4997.uprp.edu/~miguel.santiago27/UprBooks/Departments/">Biology</a>
+    <a class="dropdown-item" href="http://sici4997.uprp.edu/~miguel.santiago27/UprBooks/Departments/BIOL.php">Biology</a>
      <a class="dropdown-item" href="http://sici4997.uprp.edu/~miguel.santiago27/UprBooks/Departments/">English</a>
     <a class="dropdown-item" href="http://sici4997.uprp.edu/~miguel.santiago27/UprBooks/Departments/">Spanish</a>
      <a class="dropdown-item" href="http://sici4997.uprp.edu/~miguel.santiago27/UprBooks/Departments/">Engineering</a>
@@ -65,8 +65,11 @@ foreach ($menu as $label){
     <h1 class="card-title"><strong>ECUENTRA LOS LIBROS QUE BUSCAS </strong></h1>
    </div>
    <div class="col-lg-8 mx-auto">
-    <p class="card-text">Busca por clase, ISBN o por Departamento y encuentra el libro que necesitas tan pronto lo necesites</p>
-    <p class="card-text"><a class="btn btn-primary btn-xl js-scroll-trigger" href="http://sici4997.uprp.edu/~miguel.santiago27/UprBooks/Books.php">Presiona para buscar libros</a></p>
+    <p class="card-text">Busca por clase, ISBN o por Departamento y encuentra el libro que necesitas tan pronto lo necesites.
+    Tambien puedes buscar por clase, Profesor o codificacion de clase</p>
+    
+      <h1 class="card-title"><input class="form-control mr-sm-2" type="search" placeholder="Nombre de la clase, Profesor o Codigo de clase..." aria-label="Search">
+    <p class="card-text"><a class="btn btn-primary btn-xl js-scroll-trigger" href="http://sici4997.uprp.edu/~miguel.santiago27/UprBooks/Books.php">Presiona para buscar</a></p>
   </div>
    </div>
 </div>
