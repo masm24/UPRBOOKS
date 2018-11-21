@@ -8,30 +8,48 @@
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+ <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
+
+
     <title>UPRBooks</title>
   </head>
+  
   <body>
     
     <nav class="navbar fixed-top navbar navbar-expand-lg navbar-dark bg-dark">
-  <a class="navbar-brand" href="#"><img src = "https://gdurl.com/LqJc"  width="170" height="50" alt="Card image cap"></a>
+  <a class="navbar-brand" href="http://sici4997.uprp.edu/~miguel.santiago27/UprBooks/index.php"><img src = "https://gdurl.com/LqJc"  width="170" height="50" alt="Card image cap"></a>
   <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
     <span class="navbar-toggler-icon"></span>
   </button>
   <div class="collapse navbar-collapse" id="navbarNav">
     <ul class="navbar-nav">
       <?php
-      $menu = ['Home', 'Books', 'Classes', 'Departments', 'About'];
+      $menu = ['Home', 'Books', 'Classes', 'About'];
 foreach ($menu as $label){
   echo ' <li class="nav-item">
         <a class="nav-link" href="#">'. $label.'</a>
       </li>';
   }  
       ?>
+    <div class="dropdown">
+  <a class="btn dropdown-toggle" href="#" role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+    Departments
+  </a>
+
+  <div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+    <a class="dropdown-item" href="http://sici4997.uprp.edu/~miguel.santiago27/UprBooks/Departments/ADMI.php">Administration</a>
+    <a class="dropdown-item" href="http://sici4997.uprp.edu/~miguel.santiago27/UprBooks/Departments/SICI.php">Computer Science</a>
+    <a class="dropdown-item" href="http://sici4997.uprp.edu/~miguel.santiago27/UprBooks/Departments/">Biology</a>
+     <a class="dropdown-item" href="http://sici4997.uprp.edu/~miguel.santiago27/UprBooks/Departments/">English</a>
+    <a class="dropdown-item" href="http://sici4997.uprp.edu/~miguel.santiago27/UprBooks/Departments/">Spanish</a>
+     <a class="dropdown-item" href="http://sici4997.uprp.edu/~miguel.santiago27/UprBooks/Departments/">Engineering</a>
+  </div>
+</div>
 </div>
     </ul>
     <form class="form-inline my-2 my-lg-0">
       <input class="form-control mr-sm-2" type="search" placeholder="ISBN, Nombre, Autor..." aria-label="Search">
-      <button class="btn btn-outline-success my-2 my-sm-0" type="submit"></button>
+      <button class="btn btn-outline-success my-2 my-sm-0" type="submit"><i class="fa fa-search"></i></button>
     </form>
   </div>
 </nav>
@@ -48,12 +66,13 @@ foreach ($menu as $label){
    </div>
    <div class="col-lg-8 mx-auto">
     <p class="card-text">Busca por clase, ISBN o por Departamento y encuentra el libro que necesitas tan pronto lo necesites</p>
-    <p class="card-text"><a class="btn btn-primary btn-xl js-scroll-trigger" href="#about">Presiona para buscar libros</a></p>
+    <p class="card-text"><a class="btn btn-primary btn-xl js-scroll-trigger" href="http://sici4997.uprp.edu/~miguel.santiago27/UprBooks/Books.php">Presiona para buscar libros</a></p>
   </div>
    </div>
 </div>
   </header>
     <h1 align="center">Most Popular Classes</h1>
+     <hr class="my-4">
 
 
 <!-- -->
@@ -61,7 +80,7 @@ foreach ($menu as $label){
 <!--Clases-->
 <div class="card-deck">
   <div class="card">
-   <a href="http://sici4997.uprp.edu/~miguel.santiago27/UprBooks/Departments/SICI"> <img class="card-img-top" src="https://gdurl.com/mbK5" width="100" height="400" alt="Card image cap"></a>
+   <a href="http://sici4997.uprp.edu/~miguel.santiago27/UprBooks/Departments/SICI.php"> <img class="card-img-top" src="https://gdurl.com/mbK5" width="100" height="400" alt="Card image cap"></a>
     <div class="card-body">
       <h5 class="card-title">Computer Science Books</h5>
       <p class="card-text">Encuentra libros de todos los lenguajes de programación.</p>
@@ -69,7 +88,7 @@ foreach ($menu as $label){
     </div>
   </div>
   <div class="card">
-   <a href="http://sici4997.uprp.edu/~miguel.santiago27/UprBooks/Departments/ADMI"> <img class="card-img-top" src="https://gdurl.com/GNwA" width="100" height="400" alt="Card image cap"></a>
+   <a href="http://sici4997.uprp.edu/~miguel.santiago27/UprBooks/Departments/ADMI.php"> <img class="card-img-top" src="https://gdurl.com/GNwA" width="100" height="400" alt="Card image cap"></a>
     <div class="card-body">
       <h5 class="card-title">Administration Books</h5>
       <p class="card-text">Encuentra libros de contabilidad, Mercadeo, Gerencia, Finanazas etc. </p>
@@ -77,7 +96,7 @@ foreach ($menu as $label){
     </div>
   </div>
   <div class="card">
-   <a href="http://sici4997.uprp.edu/~miguel.santiago27/UprBooks/Departments/BIOL"> <img class="card-img-top" src="https://gdurl.com/hGqw" width="100" height="400" alt="Card image cap" > </a>
+   <a href="http://sici4997.uprp.edu/~miguel.santiago27/UprBooks/Departments/BIOL.php"> <img class="card-img-top" src="https://gdurl.com/hGqw" width="100" height="400" alt="Card image cap" > </a>
     <div class="card-body">
       <h5 class="card-title">Biology Books</h5>
       <p class="card-text">Encuentra libros de biologia, Bicrobiologia, Anatomia etc</p>
@@ -88,7 +107,7 @@ foreach ($menu as $label){
 
 <div class="card-deck">
   <div class="card">
-    <a href="http://sici4997.uprp.edu/~miguel.santiago27/UprBooks/Departments/INGL"> <img class="card-img-top" src="https://gdurl.com/60FD" width="100" height="400" alt="Card image cap"> </a>
+    <a href="http://sici4997.uprp.edu/~miguel.santiago27/UprBooks/Departments/INGL.php"> <img class="card-img-top" src="https://gdurl.com/60FD" width="100" height="400" alt="Card image cap"> </a>
     <div class="card-body">
       <h5 class="card-title">English Books</h5>
       <p class="card-text">Encuentra todos los libros de ingles desde basico hasta avanzando.</p>
@@ -96,7 +115,7 @@ foreach ($menu as $label){
     </div>
   </div>
   <div class="card">
-    <a href="http://sici4997.uprp.edu/~miguel.santiago27/UprBooks/Departments/INGE"> <img class="card-img-top" src="https://gdurl.com/HxDS" width="100" height="400" alt="Card image cap" ></a>
+    <a href="http://sici4997.uprp.edu/~miguel.santiago27/UprBooks/Departments/INGE.php"> <img class="card-img-top" src="https://gdurl.com/HxDS" width="100" height="400" alt="Card image cap" ></a>
     <div class="card-body">
       <h5 class="card-title">Engineering Books</h5>
       <p class="card-text">Encuentra libros de Ingeneria civil, mecanica, etc. </p>
@@ -104,7 +123,7 @@ foreach ($menu as $label){
     </div>
   </div>
   <div class="card">
-   <a href="http://sici4997.uprp.edu/~miguel.santiago27/UprBooks/Departments/ESPA">  <img class="card-img-top"  src="https://gdurl.com/f1h2" width="100" height="400" alt="Card image cap" ></a>
+   <a href="http://sici4997.uprp.edu/~miguel.santiago27/UprBooks/Departments/ESPA.php">  <img class="card-img-top"  src="https://gdurl.com/f1h2" width="100" height="400" alt="Card image cap" ></a>
     <div class="card-body">
       <h5 class="card-title">Spanish Books</h5>
       <p class="card-text">Encuentra todos los libros de español desde basico hasta avanzado</p>
