@@ -23,14 +23,34 @@
   </button>
   <div class="collapse navbar-collapse" id="navbarNav">
     <ul class="navbar-nav">
-      <?php
-      $menu = ['Home', 'Books', 'Register', 'About'];
-foreach ($menu as $label){
-  echo ' <li class="nav-item">
-        <a class="nav-link" href="#">'. $label.'</a>
+     <?php
+$menu = [
+         'Home' => [
+                    'label' => 'Home',
+                    'source' => 'index.php'
+                ],
+         'Books' => [
+                    'label' => 'Books',
+                    'source' => 'Books.php'
+            ],
+         'Register' => [
+                   'label' => 'Register',
+                   'source' => 'Register.php'
+            ],
+         'About' => [
+                   'label' => 'About',
+                   'source' => 'About.php'
+            ],
+         ];
+foreach ($menu as $page => $element) {
+    // index.php?p=home
+    echo '<li class="nav-item">
+        <a class="nav-link" href="?p=' . $page . '">' . $element['label'] . '</a>
       </li>';
-  }  
-      ?>
+      
+}
+
+?>
     <div class="dropdown">
   <a class="btn dropdown-toggle" href="#" role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
     Departments
@@ -53,7 +73,20 @@ foreach ($menu as $label){
     </form>
   </div>
 </nav>
-    
+
+<!-- para que funcione el navbar-->
+<div class="container-fluid">
+<?php
+$page = (isset($_GET['p'])) ? $_GET['p'] : 'home';
+if (isset($menu[$page])) {
+    include $menu[$page]['source'];
+} else {
+    include 'Home.php';
+}
+?>
+</div>
+
+
     
 <!-- foto principal-->    
 <div class="card bg-dark text-white">
