@@ -17,23 +17,25 @@
   </head>
   <body>
   
- <nav class="navbar fixed-top navbar navbar-expand-lg navbar-dark bg-dark">
+  <nav class="navbar fixed-top navbar navbar-expand-lg navbar-dark bg-dark">
   <a class="navbar-brand" href="http://sici4997.uprp.edu/~miguel.santiago27/UprBooks/index.php"><img src = "https://gdurl.com/LqJc"  width="170" height="50" alt="Card image cap"></a>
   <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
     <span class="navbar-toggler-icon"></span>
   </button>
   <div class="collapse navbar-collapse" id="navbarNav">
     <ul class="navbar-nav">
-        
-      <?php
-      $menu = ['Home', 'Books', 'Register', 'About'];
-foreach ($menu as $label){
-  echo ' <li class="nav-item">
-        <a class="nav-link" href="#">'. $label.'</a>
-      </li>';
-  }  
-      ?>
-  
+         <li class="nav-item active">
+        <a class="nav-link" href="http://sici4997.uprp.edu/~miguel.santiago27/UprBooks/index.php">Home <span class="sr-only">(current)</span></a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="http://sici4997.uprp.edu/~miguel.santiago27/UprBooks/index.php?p=Books">Books</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="http://sici4997.uprp.edu/~miguel.santiago27/UprBooks/index.php?p=Register">Register</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="http://sici4997.uprp.edu/~miguel.santiago27/UprBooks/index.php?p=About">About</a>
+      </li>
     <div class="dropdown">
   <a class="btn dropdown-toggle" href="#" role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
     Departments
@@ -49,6 +51,7 @@ foreach ($menu as $label){
   </div>
 </div>
 </div>
+
     </ul>
     <form class="form-inline my-2 my-lg-0">
       <input class="form-control mr-sm-2" type="search" placeholder="ISBN, Nombre, Autor..." aria-label="Search">

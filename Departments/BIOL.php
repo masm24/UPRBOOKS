@@ -24,23 +24,25 @@
   </button>
   <div class="collapse navbar-collapse" id="navbarNav">
     <ul class="navbar-nav">
-        
-      <?php
-      $menu = ['Home', 'Books', 'Register', 'About'];
-foreach ($menu as $label){
-  echo ' <li class="nav-item">
-        <a class="nav-link" href="#">'. $label.'</a>
-      </li>';
-  }  
-      ?>
-  
+         <li class="nav-item active">
+        <a class="nav-link" href="http://sici4997.uprp.edu/~miguel.santiago27/UprBooks/index.php">Home <span class="sr-only">(current)</span></a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="http://sici4997.uprp.edu/~miguel.santiago27/UprBooks/index.php?p=Books">Books</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="http://sici4997.uprp.edu/~miguel.santiago27/UprBooks/index.php?p=Register">Register</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="http://sici4997.uprp.edu/~miguel.santiago27/UprBooks/index.php?p=About">About</a>
+      </li>
     <div class="dropdown">
   <a class="btn dropdown-toggle" href="#" role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
     Departments
   </a>
 
   <div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
-     <a class="dropdown-item" href="http://sici4997.uprp.edu/~miguel.santiago27/UprBooks/Departments/ADMI.php">Administration</a>
+    <a class="dropdown-item" href="http://sici4997.uprp.edu/~miguel.santiago27/UprBooks/Departments/ADMI.php">Administration</a>
     <a class="dropdown-item" href="http://sici4997.uprp.edu/~miguel.santiago27/UprBooks/Departments/SICI.php">Computer Science</a>
     <a class="dropdown-item" href="http://sici4997.uprp.edu/~miguel.santiago27/UprBooks/Departments/BIOL.php">Biology</a>
      <a class="dropdown-item" href="http://sici4997.uprp.edu/~miguel.santiago27/UprBooks/Departments/">English</a>
@@ -49,6 +51,7 @@ foreach ($menu as $label){
   </div>
 </div>
 </div>
+
     </ul>
     <form class="form-inline my-2 my-lg-0">
       <input class="form-control mr-sm-2" type="search" placeholder="ISBN, Nombre, Autor..." aria-label="Search">
@@ -114,6 +117,110 @@ Biology 10th Edition <br> ISBN:  978-1285423586 <br> Departamento: BIOL <br> Cla
   </div>
 <!-- Fin Modal -->
 </div>
+
+<div  style="margin-top: 50px;"  class="container">
+<div class="row">
+<div class="col-lg-8 mx-auto text-center">
+<p>
+<img src="../img/portfolio/books/campbell.jpg" alt="Biology 10th Edition" style="float:left;width:170px;height:200px;">
+Campbell Biology (10th Edition) <br> ISBN:  978-0321775658 <br> Departamento: BIOL <br> Clase:  BIOL3006
+</p>
+  <!-- Button trigger modal -->
+<button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal">
+  Comprar</button>
+ 
+<!-- Modal -->
+<div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLabel">Llenar informacion personal</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+       <form>
+  <div class="form-row">
+    <div class="form-group col-md-6">
+      <label for="inputEmail4">Nombre</label>
+      <input type="text" class="form-control" id="inputName" placeholder="Nombre">
+    </div>
+    <div class="form-group col-md-6">
+      <label for="inputPassword4">Apellido</label>
+      <input type="text" class="form-control" id="inputLastName" placeholder="Apellido">
+    </div>
+  </div>
+  <div class="form-group">
+    <label for="inputAddress">Email</label>
+    <input type="email" class="form-control" id="inputEmail" placeholder="Email">
+  </div>
+ 
+  </div>
+ 
+</form>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+        <button type="button" class="btn btn-primary">Confirmar</button>
+      </div>
+    </div>
+  </div>
+<!-- Fin Modal -->
+</div>
+ 
+<div  style="margin-top: 50px;"  class="container">
+<div class="row">
+<div class="col-lg-8 mx-auto text-center">
+<p>
+<img src="../img/portfolio/books/genetic.jpg" alt="Biology 10th Edition" style="float:left;width:170px;height:200px;">
+Genetic Analysis: An Integrated Approach (2nd Edition)  <br> ISBN:  978-0321948908 <br> Departamento: BIOL <br> Clase:  BIOL3305
+</p>
+  <!-- Button trigger modal -->
+<button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal">
+  Comprar</button>
+ 
+<!-- Modal -->
+<div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLabel">Llenar informacion personal</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+       <form>
+  <div class="form-row">
+    <div class="form-group col-md-6">
+      <label for="inputEmail4">Nombre</label>
+      <input type="text" class="form-control" id="inputName" placeholder="Nombre">
+    </div>
+    <div class="form-group col-md-6">
+      <label for="inputPassword4">Apellido</label>
+      <input type="text" class="form-control" id="inputLastName" placeholder="Apellido">
+    </div>
+  </div>
+  <div class="form-group">
+    <label for="inputAddress">Email</label>
+    <input type="email" class="form-control" id="inputEmail" placeholder="Email">
+  </div>
+ 
+  </div>
+ 
+</form>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+        <button type="button" class="btn btn-primary">Confirmar</button>
+      </div>
+    </div>
+  </div>
+<!-- Fin Modal -->
+</div>
+   </section>
+ 
 
 
    </section>
