@@ -1,4 +1,3 @@
-
 <!doctype html>
 <html lang="en">
   <head>
@@ -23,10 +22,10 @@
     <h1 class="card-title"><strong>ECUENTRA LOS LIBROS QUE BUSCAS </strong></h1>
    </div>
    <div class="col-lg-8 mx-auto">
-    <p class="card-text">Busca por clase, ISBN o por Departamento y encuentra el libro que necesitas tan pronto lo necesites.
-    Tambien puedes buscar por clase, Profesor o codificacion de clase</p>
+    <p class="card-text">Busca por clase, ISBN o por departamento y encuentra el libro que necesitas tan pronto lo necesites.
+    También puedes buscar por clase, profesor o codificación de clase.</p>
     
-      <h1 class="card-title"><input class="form-control mr-sm-2" type="search" placeholder="Nombre de la clase, Profesor o Codigo de clase..." aria-label="Search">
+      <h1 class="card-title"><input class="form-control mr-sm-2" type="search" placeholder="Nombre de la clase, profesor o código de clase..." aria-label="Search">
     <p class="card-text"><a class="btn btn-primary btn-xl js-scroll-trigger" href="http://sici4997.uprp.edu/~miguel.santiago27/UprBooks/Books.php">Presiona para buscar</a></p>
   </div>
    </div>
@@ -45,23 +44,23 @@
     <div class="card-body">
       <h5 class="card-title">Computer Science Books</h5>
       <p class="card-text">Encuentra libros de todos los lenguajes de programación.</p>
-      <p class="card-text"><small class="text-muted">Ejemplo Narnia, Harry Potter, Rverdale, Tu madre la mia?</small></p>
+      <p class="card-text"><small class="text-muted">Systems Analys is and Design (8th Edition),Web Development and Design Foundations with HTML5,Learning PHP, MySQL & JavaScript</small></p>
     </div>
   </div>
   <div class="card">
    <a href="http://sici4997.uprp.edu/~miguel.santiago27/UprBooks/Departments/ADMI.php"> <img class="card-img-top" src="https://gdurl.com/GNwA" width="100" height="400" alt="Card image cap"></a>
     <div class="card-body">
       <h5 class="card-title">Administration Books</h5>
-      <p class="card-text">Encuentra libros de contabilidad, Mercadeo, Gerencia, Finanazas etc. </p>
-      <p class="card-text"><small class="text-muted">Ejemplo Narnia, Harry Potter, Rverdale, Tu madre la mia?</small></p>
+      <p class="card-text">Encuentra libros de Contabilidad, Mercadeo, Gerencia, Finanzas etc. </p>
+      <p class="card-text"><small class="text-muted">Management Eleventh Edition (11th Edition),Principios de administración financiera, 12th Edition,International Accounting, 7th Edition</small></p>
     </div>
   </div>
   <div class="card">
    <a href="http://sici4997.uprp.edu/~miguel.santiago27/UprBooks/Departments/BIOL.php"> <img class="card-img-top" src="https://gdurl.com/hGqw" width="100" height="400" alt="Card image cap" > </a>
     <div class="card-body">
       <h5 class="card-title">Biology Books</h5>
-      <p class="card-text">Encuentra libros de biologia, Bicrobiologia, Anatomia etc</p>
-      <p class="card-text"><small class="text-muted">Ejemplo Narnia, Harry Potter, Rverdale, Tu madre la mia?</small></p>
+      <p class="card-text">Encuentra libros de Biología, Microbiología, Anatomía etc.</p>
+      <p class="card-text"><small class="text-muted">Biology 10th Edition,Campbell Biology (10th Edition),Genetic Analysis: An Integrated Approach (2nd Edition)</small></p>
     </div>
   </div>
 </div>
@@ -71,7 +70,7 @@
     <a href="http://sici4997.uprp.edu/~miguel.santiago27/UprBooks/Departments/INGL.php"> <img class="card-img-top" src="https://gdurl.com/60FD" width="100" height="400" alt="Card image cap"> </a>
     <div class="card-body">
       <h5 class="card-title">English Books</h5>
-      <p class="card-text">Encuentra todos los libros de ingles desde basico hasta avanzando.</p>
+      <p class="card-text">Encuentra todos los libros de Inglés desde básico hasta avanzado.</p>
       <p class="card-text"><small class="text-muted">Ejemplo Narnia, Harry Potter, Rverdale, Tu madre la mia?</small></p>
     </div>
   </div>
@@ -79,16 +78,16 @@
     <a href="http://sici4997.uprp.edu/~miguel.santiago27/UprBooks/Departments/INGE.php"> <img class="card-img-top" src="https://gdurl.com/HxDS" width="100" height="400" alt="Card image cap" ></a>
     <div class="card-body">
       <h5 class="card-title">Engineering Books</h5>
-      <p class="card-text">Encuentra libros de Ingeneria civil, mecanica, etc. </p>
-      <p class="card-text"><small class="text-muted">Ejemplo Narnia, Harry Potter, Rverdale, Tu madre la mia?</small></p>
+      <p class="card-text">Encuentra libros de Ingeniería civil, mecánica, etc. </p>
+      <p class="card-text"><small class="text-muted">Ejemplo: Physics for Scientists & Engineers with Modern Physics Vol. 3, Engineering Drawing and Graphic Technology 14th Edition, The Physical Universe 15th Edition</small></p>
     </div>
   </div>
   <div class="card">
    <a href="http://sici4997.uprp.edu/~miguel.santiago27/UprBooks/Departments/ESPA.php">  <img class="card-img-top"  src="https://gdurl.com/f1h2" width="100" height="400" alt="Card image cap" ></a>
     <div class="card-body">
       <h5 class="card-title">Spanish Books</h5>
-      <p class="card-text">Encuentra todos los libros de español desde basico hasta avanzado</p>
-      <p class="card-text"><small class="text-muted">Ejemplo Narnia, Harry Potter, Rverdale, Tu madre la mia?</small></p>
+      <p class="card-text">Encuentra todos los libros de Español desde básico hasta avanzado</p>
+      <p class="card-text"><small class="text-muted">Ejemplo: El Placer de Leer y Escribir., “Palacio” de Sergio Gutiérrez Negrón, Obras Maestras De La Literatura Universal </small></p>
     </div>
   </div>
 </div>

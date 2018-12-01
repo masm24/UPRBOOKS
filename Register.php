@@ -18,8 +18,8 @@
 
     
 <br><br><br><br>
-<h1 align="center">Desde esta página podrás crear tu propia cuenta para vender tus libros.
-      De una manera eficiemte y totalmente seguro.</p>
+<h1 align="center">Desde esta página podrás crear tu propia cuenta para vender tus libros,
+      de una manera eficiente y totalmente segura.</p>
       </h1>
         <hr class="my-4"></hr>
         
@@ -32,7 +32,7 @@
       <input type="text" class="form-control" id="Nombre" placeholder="Miguel...">
     </div>
     <div class="form-group col-md-6">
-      <label for="inputPassword4">Appelido</label>
+      <label for="inputPassword4">Apellido</label>
       <input type="text" class="form-control" id="Apellido" placeholder="Santiago...">
     </div>
   </div>
@@ -50,11 +50,11 @@
    
      <div class="form-row">
     <div class="form-group col-md-6">
-      <label for="inputEmail4">Ingrese su numero de estudiante</label>
+      <label for="inputEmail4">Ingrese su número de estudiante</label>
       <input type="text" class="form-control" id="inputEmail4" placeholder="843-xx-xxxx">
     </div>
     <div class="form-group col-md-6">
-      <label for="inputPassword4">Confirme su Password</label>
+      <label for="inputPassword4">Confirme su password</label>
       <input type="password" class="form-control" id="inputPassword2" placeholder="Password">
     </div>
   </div>
