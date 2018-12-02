@@ -43,9 +43,9 @@
     <a class="dropdown-item" href="http://sici4997.uprp.edu/~miguel.santiago27/UprBooks/Departments/ADMI.php">Administration</a>
     <a class="dropdown-item" href="http://sici4997.uprp.edu/~miguel.santiago27/UprBooks/Departments/SICI.php">Computer Science</a>
     <a class="dropdown-item" href="http://sici4997.uprp.edu/~miguel.santiago27/UprBooks/Departments/BIOL.php">Biology</a>
-     <a class="dropdown-item" href="http://sici4997.uprp.edu/~miguel.santiago27/UprBooks/Departments/">English</a>
-    <a class="dropdown-item" href="http://sici4997.uprp.edu/~miguel.santiago27/UprBooks/Departments/">Spanish</a>
-     <a class="dropdown-item" href="http://sici4997.uprp.edu/~miguel.santiago27/UprBooks/Departments/">Engineering</a>
+     <a class="dropdown-item" href="http://sici4997.uprp.edu/~miguel.santiago27/UprBooks/Departments/INGL.php">English</a>
+    <a class="dropdown-item" href="http://sici4997.uprp.edu/~miguel.santiago27/UprBooks/Departments/ESPA.php">Spanish</a>
+     <a class="dropdown-item" href="http://sici4997.uprp.edu/~miguel.santiago27/UprBooks/Departments/INGE.php">Engineering</a>
   </div>
 </div>
 </div>
@@ -69,7 +69,7 @@
 <div class="row">
 <div class="col-lg-8 mx-auto text-center">
 <p>
-<img src="../img/portfolio/books/Biol.jpg" alt="Biology 10th Edition" style="float:left;width:170px;height:200px;">
+<img src="../img/portfolio/books/el_placer_de_leer_antologia.jpg" alt="Biology 10th Edition" style="float:left;width:170px;height:200px;">
 El Placer De Leer Y Escribir. <br> ISBN:  9781-563282195 <br> Departamento: ESPA <br> Clase:  ESPA3005
 </p>
   <!-- Button trigger modal -->
@@ -120,7 +120,7 @@ El Placer De Leer Y Escribir. <br> ISBN:  9781-563282195 <br> Departamento: ESPA
 <div class="row">
 <div class="col-lg-8 mx-auto text-center">
 <p>
-<img src="../img/portfolio/books/campbell.jpg" alt="Biology 10th Edition" style="float:left;width:170px;height:200px;">
+<img src="../img/portfolio/books/Palacio.jpg" alt="Biology 10th Edition" style="float:left;width:170px;height:200px;">
 “Palacio” de Sergio Gutiérrez Negrón <br> ISBN:  978-0980024975 <br> Departamento: ESPA <br> Clase:  ESPA3006
 </p>
   <!-- Button trigger modal -->
@@ -171,7 +171,7 @@ El Placer De Leer Y Escribir. <br> ISBN:  9781-563282195 <br> Departamento: ESPA
 <div class="row">
 <div class="col-lg-8 mx-auto text-center">
 <p>
-<img src="../img/portfolio/books/genetic.jpg" alt="Biology 10th Edition" style="float:left;width:170px;height:200px;">
+<img src="../img/portfolio/books/obrasliteratura.jpg" alt="Biology 10th Edition" style="float:left;width:170px;height:200px;">
 Obras Maestras De La Literatura Universal  <br> ISBN:  978-1563280078 <br> Departamento: ESPA <br> Clase:  ESPA3305
 </p>
   <!-- Button trigger modal -->

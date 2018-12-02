@@ -28,24 +28,29 @@
      Finalmente algunos estudiantes optan por publicar anuncios en los tablones de edicto de la Universidad. Pocos estudiantes leen estos anuncios y no es una manera efectiva de poner en contacto compradores y vendedores.
      Esta página web ofrece una mejor  alternativa para la compra y venta de libros de textos universitarios.</p>
 
-    </div>
-    
-       <br>
-     <div align="center">
-    <p>Creadores</p>
-    
-    <p>Miguel Ángel Santiago Mercado</p>
-    
-     <br><br><br><br><br><br>
-    
-      <p>Pedro Jesús Blasini Colón</p>
-    
-    <div align="center">
-  
-  <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
-
+  <!--  -->
+  <br>
+   <div class="container">
+            <h4>Creadores</h4>
+    <hr class="my-4">
+   </div>
+    <br>
+  <div class="container" >
+<div class="row">
+<div class="col-lg-8 mx-auto text-center">
+<p style= align="center">  Pedro Blasini</p>
+<img src="img/pedro.jpg" style= width:200px;height:200px;>
+</div>
+</div>
+  </div>
+  <br><br>
+ <div class="container" >
+<div class="row">
+<div class="col-lg-8 mx-auto text-center">
+<p style= align="center">  Miguel Santiago</p>
+<img src="img/miguel.jpg" style= width:200px;height:200px;>
+</div>
+</div>
+ </div>
     </body>
 </html>

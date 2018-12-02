@@ -43,9 +43,9 @@
     <a class="dropdown-item" href="http://sici4997.uprp.edu/~miguel.santiago27/UprBooks/Departments/ADMI.php">Administration</a>
     <a class="dropdown-item" href="http://sici4997.uprp.edu/~miguel.santiago27/UprBooks/Departments/SICI.php">Computer Science</a>
     <a class="dropdown-item" href="http://sici4997.uprp.edu/~miguel.santiago27/UprBooks/Departments/BIOL.php">Biology</a>
-     <a class="dropdown-item" href="http://sici4997.uprp.edu/~miguel.santiago27/UprBooks/Departments/">English</a>
-    <a class="dropdown-item" href="http://sici4997.uprp.edu/~miguel.santiago27/UprBooks/Departments/">Spanish</a>
-     <a class="dropdown-item" href="http://sici4997.uprp.edu/~miguel.santiago27/UprBooks/Departments/">Engineering</a>
+     <a class="dropdown-item" href="http://sici4997.uprp.edu/~miguel.santiago27/UprBooks/Departments/INGL.php">English</a>
+    <a class="dropdown-item" href="http://sici4997.uprp.edu/~miguel.santiago27/UprBooks/Departments/ESPA.php">Spanish</a>
+     <a class="dropdown-item" href="http://sici4997.uprp.edu/~miguel.santiago27/UprBooks/Departments/INGE.php">Engineering</a>
   </div>
 </div>
 </div>
@@ -69,7 +69,7 @@
 <div class="row">
 <div class="col-lg-8 mx-auto text-center">
 <p>
-<img src="../img/portfolio/books/Biol.jpg" alt="Biology 10th Edition" style="float:left;width:170px;height:200px;">
+<img src="../img/portfolio/books/INGE.jpg" alt="Biology 10th Edition" style="float:left;width:170px;height:200px;">
 Physics for Scientists & Engineers with Modern Physics, Vol. 3 <br> ISBN:  978-0132274005 <br> Departamento: INGE <br> Clase:  INGE3005
 </p>
   <!-- Button trigger modal -->
@@ -120,7 +120,7 @@ Physics for Scientists & Engineers with Modern Physics, Vol. 3 <br> ISBN:  978-0
 <div class="row">
 <div class="col-lg-8 mx-auto text-center">
 <p>
-<img src="../img/portfolio/books/campbell.jpg" alt="Biology 10th Edition" style="float:left;width:170px;height:200px;">
+<img src="../img/portfolio/books/INGE Drawing.jpg" alt="Biology 10th Edition" style="float:left;width:170px;height:200px;">
 Engineering Drawing and Graphic Technology 14th Edition <br> ISBN:  978-0070223479 <br> Departamento: INGE <br> Clase:  INGE3006
 </p>
   <!-- Button trigger modal -->
@@ -171,7 +171,7 @@ Engineering Drawing and Graphic Technology 14th Edition <br> ISBN:  978-00702234
 <div class="row">
 <div class="col-lg-8 mx-auto text-center">
 <p>
-<img src="../img/portfolio/books/genetic.jpg" alt="Biology 10th Edition" style="float:left;width:170px;height:200px;">
+<img src="../img/portfolio/books/Universe.jpg" alt="Biology 10th Edition" style="float:left;width:170px;height:200px;">
 The Physical Universe, 15th Edition  <br> ISBN:  978-0073513928 <br> Departamento: INGE <br> Clase:  INGE3305
 </p>
   <!-- Button trigger modal -->

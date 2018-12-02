@@ -24,8 +24,12 @@
         <hr class="my-4"></hr>
         
 <!--Refistration form-->
-
+<div class="card">
+  <div class="card-header">
+   <h2>¡Regístrate!</h2>
+  </div>
 <form>
+ <br>
   <div class="form-row">
     <div class="form-group col-md-6">
       <label for="inputEmail4">Nombre</label>
@@ -59,11 +63,11 @@
     </div>
   </div>
  
-  </div>
-  <button type="submit" class="btn btn-primary">Register</button>
+  <button style= "margin:auto;display:block" type="submit" class="btn btn-primary">Register</button>
+<br>
 </form>
-
-    
+  </div>
+    </div>
       
       </body>
     </html>
