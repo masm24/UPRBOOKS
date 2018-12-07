@@ -26,7 +26,7 @@
     También puedes buscar por clase, profesor o codificación de clase.</p>
     
       <h1 class="card-title"><input class="form-control mr-sm-2" type="search" placeholder="Nombre de la clase, profesor o código de clase..." aria-label="Search">
-    <p class="card-text"><a class="btn btn-primary btn-xl js-scroll-trigger" href="http://sici4997.uprp.edu/~miguel.santiago27/UprBooks/Books.php">Presiona para buscar</a></p>
+    <p class="card-text"><a class="btn btn-primary btn-xl js-scroll-trigger" href="http://sici4997.uprp.edu/~miguel.santiago27/UprBooks/index.php?p=Books">Presiona para buscar</a></p>
   </div>
    </div>
 </div>
